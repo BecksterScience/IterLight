@@ -1,0 +1,3 @@
+mamba env create -f env.yml
+conda activate Iterlight
+/opt/anaconda3/envs/Iterlight/bin/python -m ipykernel install --user --name iterlight --display-name "Python (iterlight)"
