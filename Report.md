@@ -31,7 +31,7 @@ Our analysis begins with an **LLM-generated funder dataset** provided by IterLig
 
 ## 2.1 The Dataset (LLM-Generated)
 
-The original dataset contained **~250 organizations**, spanning:
+The original dataset contained **~200 organizations**, spanning:
 
 - Philanthropic foundations  
 - Corporate CSR programs  
@@ -100,7 +100,7 @@ The LLM-provided geographic descriptors were inconsistent (“regional,” “na
 - **`geo_focus = 1`** if the organization operates in, funds, or is programmatically aligned with NYC or the surrounding region  
 - **`geo_focus = 0`** otherwise  
 
-We manually reviewed all ~250 original entries and assigned `geo_focus = 1` for organizations connected to the following regions, else `geo_focus = 0`:
+We manually reviewed all ~200 original entries and assigned `geo_focus = 1` for organizations connected to the following regions, else `geo_focus = 0`:
 
 - **New York (NY)**  
 - **Vermont (VT)**  
@@ -145,7 +145,7 @@ Fields that were excluded from the analysis and kept for more interior use were 
 
 ---
 
-After all cleaning, standardization, research, and filtering, the dataset narrowed from the original **~250 organizations** to approximately **150 true, verified financial funders** with complete, model-ready information.
+After all cleaning, standardization, research, and filtering, the dataset narrowed from the original **~200 organizations** to approximately **150 true, verified financial funders** with complete, model-ready information.
 
 ---
 
