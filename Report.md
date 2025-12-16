@@ -12,7 +12,7 @@ We are under **small-data and limited-time constraints**:
 
 - Only ~10 proxy-labeled positive EdTech funders,  
 - Limited/no hard negative labels yet,  
-- One main dataset of ~150 candidates.
+- One main dataset of ~200 candidates.
 
 So the OPS framework will:
 
